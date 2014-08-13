@@ -9,11 +9,17 @@
 #import <Foundation/Foundation.h>
 #import "Student.h"
 #import "Person.h"
+#import "Memory.h"
 
 int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
+        
+        Memory *memory = [[Memory alloc] init];
+        
+        [memory release];
+        
         Student *stu = [[Student alloc] init];
         
         stu.age = 10;
