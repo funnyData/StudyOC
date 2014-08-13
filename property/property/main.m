@@ -17,8 +17,7 @@ int main(int argc, const char * argv[])
         
         stu.age = 10;
         NSLog(@"The age is %i", stu.age);
-        
-        
+
         
     }
     return 0;

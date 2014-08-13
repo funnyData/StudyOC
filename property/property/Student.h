@@ -8,7 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Student : NSObject
+@interface Student : NSObject {
+    int _age;
+    int _number;
+}
 
 @property int age;
 @property int number;

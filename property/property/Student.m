@@ -10,6 +10,11 @@
 
 @implementation Student
 
-@synthesize age, number;
+@synthesize age = _age;
+@synthesize number = _number;
+
+- (void)test {
+    
+}
 
 @end
