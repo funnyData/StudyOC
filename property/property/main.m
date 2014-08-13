@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "Student.h"
+#import "Person.h"
 
 int main(int argc, const char * argv[])
 {
@@ -18,7 +19,10 @@ int main(int argc, const char * argv[])
         stu.age = 10;
         NSLog(@"The age is %i", stu.age);
 
+        Person *person = [[Person alloc] init];
+        person.code = 100;
         
+        NSLog(@"The code is %i", person.code);
     }
     return 0;
 }

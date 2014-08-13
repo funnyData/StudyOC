@@ -1,0 +1,15 @@
+
+1.如果在.h头文件中，只定义了@property int age, 这时候Xcode会帮助生成getter和setter方法，并且生成一个_age的private内部变量
+
+2.如果在.h头文件中，定义了@property int age, 并且在@implementation里面定义了@synthsize age, 这时候野惠帮助生成getter和setter方法，并且生成一个age的private内部变量
+
+3.根据2，如果想让Xcode生成一个下划线开头的变量，则需要在@synthsize age = _age;
+
+4.如果想要自定义getter和setter，也可以用@property int age; 在实现中自己实现getter和setter方法
+
+    - (void)setAge:(int)age {
+        age = _age;
+        }
+    - (int)age {
+        return _age;
+        }

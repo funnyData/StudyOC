@@ -11,6 +11,8 @@
 		0454B2D6199B12FB00547BA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0454B2D5199B12FB00547BA0 /* main.m */; };
 		0454B2DA199B12FB00547BA0 /* property.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0454B2D9199B12FB00547BA0 /* property.1 */; };
 		0454B2E2199B131300547BA0 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 0454B2E1199B131300547BA0 /* Student.m */; };
+		0454B2E5199B246B00547BA0 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0454B2E4199B246B00547BA0 /* Person.m */; };
+		0454B2E9199B272B00547BA0 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 0454B2E8199B272B00547BA0 /* Animal.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +36,11 @@
 		0454B2D9199B12FB00547BA0 /* property.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = property.1; sourceTree = "<group>"; };
 		0454B2E0199B131300547BA0 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
 		0454B2E1199B131300547BA0 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		0454B2E3199B246B00547BA0 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		0454B2E4199B246B00547BA0 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		0454B2E6199B24F800547BA0 /* ReadME */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadME; sourceTree = "<group>"; };
+		0454B2E7199B272B00547BA0 /* Animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		0454B2E8199B272B00547BA0 /* Animal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +88,11 @@
 				0454B2D7199B12FB00547BA0 /* Supporting Files */,
 				0454B2E0199B131300547BA0 /* Student.h */,
 				0454B2E1199B131300547BA0 /* Student.m */,
+				0454B2E3199B246B00547BA0 /* Person.h */,
+				0454B2E4199B246B00547BA0 /* Person.m */,
+				0454B2E6199B24F800547BA0 /* ReadME */,
+				0454B2E7199B272B00547BA0 /* Animal.h */,
+				0454B2E8199B272B00547BA0 /* Animal.m */,
 			);
 			path = property;
 			sourceTree = "<group>";
@@ -144,6 +156,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0454B2E5199B246B00547BA0 /* Person.m in Sources */,
+				0454B2E9199B272B00547BA0 /* Animal.m in Sources */,
 				0454B2D6199B12FB00547BA0 /* main.m in Sources */,
 				0454B2E2199B131300547BA0 /* Student.m in Sources */,
 			);
