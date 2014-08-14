@@ -17,6 +17,10 @@ void test(Student *stu){
     Book *book = [[Book alloc]initWithPrice:3.5];
     stu.book = book;
     [book release];
+    
+    Book *book1 = [[Book alloc]initWithPrice:4.5];
+    stu.book = book1;
+    [book1 release];
 }
 
 void test1(Student *stu){
@@ -38,6 +42,9 @@ int main(int argc, const char * argv[])
         
         [book release];
         [stu release];
+        
+        //[stu release]; 野指针，会报错
+        //[nil realese]; 空指针，不报错
         
         
 //        Memory *memory = [[Memory alloc] init];

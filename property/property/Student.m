@@ -14,6 +14,7 @@
 - (void)dealloc {
     //释放Book对象
     [_book release];
+    
     [super dealloc];
     NSLog(@"Student对象被销毁:%i", _age);
 }
@@ -33,6 +34,12 @@
 
 #pragma mark - 公共方法:getter & setter
 - (void)setBook:(Book *)book {
+    //先释放旧的成员变量
+    if (_book != book) {
+        [_book release];
+    }
+    //[_book release];
+    //再retain新传进来的变量
     _book = book;
     [book retain];
 }
