@@ -8,27 +8,48 @@
 
 #import <Foundation/Foundation.h>
 #import "Student.h"
+
 #import "Person.h"
 #import "Memory.h"
+
+
+void test(Student *stu){
+    Book *book = [[Book alloc]initWithPrice:3.5];
+    stu.book = book;
+    [book release];
+}
+
+void test1(Student *stu){
+    [stu readBook];
+}
 
 int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
         
-        Memory *memory = [[Memory alloc] init];
         
-        [memory release];
+        Student *stu = [[Student alloc]initWithAge:30];
+        Book *book = [[Book alloc] initWithPrice:88.8];
         
-        Student *stu = [[Student alloc] init];
+        stu.book = book;
+        test(stu);
+        test1(stu);
         
-        stu.age = 10;
-        NSLog(@"The age is %i", stu.age);
-
-        Person *person = [[Person alloc] init];
-        person.code = 100;
+        [book release];
+        [stu release];
         
-        NSLog(@"The code is %i", person.code);
+        
+//        Memory *memory = [[Memory alloc] init];
+//        
+//        [memory release];
+//        
+//        
+//
+//        Person *person = [[Person alloc] init];
+//        person.code = 100;
+//        
+//        NSLog(@"The code is %i", person.code);
     }
     return 0;
 }

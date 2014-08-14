@@ -14,6 +14,7 @@
 		0454B2E5199B246B00547BA0 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0454B2E4199B246B00547BA0 /* Person.m */; };
 		0454B2E9199B272B00547BA0 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 0454B2E8199B272B00547BA0 /* Animal.m */; };
 		0454B2ED199B4B6B00547BA0 /* Memory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0454B2EC199B4B6B00547BA0 /* Memory.m */; };
+		04AAAE14199C5499006D5FE9 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AAAE13199C5499006D5FE9 /* Book.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -44,6 +45,8 @@
 		0454B2E8199B272B00547BA0 /* Animal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
 		0454B2EB199B4B6B00547BA0 /* Memory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Memory.h; sourceTree = "<group>"; };
 		0454B2EC199B4B6B00547BA0 /* Memory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Memory.m; sourceTree = "<group>"; };
+		04AAAE12199C5499006D5FE9 /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		04AAAE13199C5499006D5FE9 /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,12 +89,11 @@
 		0454B2D4199B12FB00547BA0 /* property */ = {
 			isa = PBXGroup;
 			children = (
+				04AAAE11199C5457006D5FE9 /* StudentAndBook */,
 				0454B2EA199B4AE900547BA0 /* 内存管理 */,
 				0454B2D5199B12FB00547BA0 /* main.m */,
 				0454B2D9199B12FB00547BA0 /* property.1 */,
 				0454B2D7199B12FB00547BA0 /* Supporting Files */,
-				0454B2E0199B131300547BA0 /* Student.h */,
-				0454B2E1199B131300547BA0 /* Student.m */,
 				0454B2E3199B246B00547BA0 /* Person.h */,
 				0454B2E4199B246B00547BA0 /* Person.m */,
 				0454B2E6199B24F800547BA0 /* ReadME */,
@@ -116,6 +118,17 @@
 				0454B2EC199B4B6B00547BA0 /* Memory.m */,
 			);
 			name = "内存管理";
+			sourceTree = "<group>";
+		};
+		04AAAE11199C5457006D5FE9 /* StudentAndBook */ = {
+			isa = PBXGroup;
+			children = (
+				0454B2E0199B131300547BA0 /* Student.h */,
+				0454B2E1199B131300547BA0 /* Student.m */,
+				04AAAE12199C5499006D5FE9 /* Book.h */,
+				04AAAE13199C5499006D5FE9 /* Book.m */,
+			);
+			name = StudentAndBook;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,6 +186,7 @@
 				0454B2E9199B272B00547BA0 /* Animal.m in Sources */,
 				0454B2D6199B12FB00547BA0 /* main.m in Sources */,
 				0454B2ED199B4B6B00547BA0 /* Memory.m in Sources */,
+				04AAAE14199C5499006D5FE9 /* Book.m in Sources */,
 				0454B2E2199B131300547BA0 /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +301,7 @@
 				0454B2DF199B12FB00547BA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

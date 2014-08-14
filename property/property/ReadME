@@ -13,3 +13,5 @@
     - (int)age {
         return _age;
         }
+        
+5.如果自己手动实现了getter和setter方法，xcode就不会自动生成@synthsize，就不会生成_book

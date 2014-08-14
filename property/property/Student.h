@@ -7,13 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Book.h"
 
 @interface Student : NSObject {
-    int _age;
-    int _number;
+    Book * _book;
 }
 
 @property int age;
-@property int number;
+@property Book *book;
 
+- (id)initWithAge:(int)age;
+
+- (void)readBook;
 @end
