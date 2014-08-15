@@ -15,3 +15,8 @@
         }
         
 5.如果自己手动实现了getter和setter方法，xcode就不会自动生成@synthsize，就不会生成_book
+
+6.@property (retain) Book *book
+    retain 代表release旧值，retain新值
+    
+7.

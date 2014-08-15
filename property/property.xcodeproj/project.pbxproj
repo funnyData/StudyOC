@@ -15,6 +15,10 @@
 		0454B2E9199B272B00547BA0 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 0454B2E8199B272B00547BA0 /* Animal.m */; };
 		0454B2ED199B4B6B00547BA0 /* Memory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0454B2EC199B4B6B00547BA0 /* Memory.m */; };
 		04AAAE14199C5499006D5FE9 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AAAE13199C5499006D5FE9 /* Book.m */; };
+		04AAAE18199CA301006D5FE9 /* Computer.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AAAE17199CA301006D5FE9 /* Computer.m */; };
+		04AAAE1B199CA353006D5FE9 /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AAAE1A199CA353006D5FE9 /* People.m */; };
+		04AAAE1F199CB08B006D5FE9 /* ClassA.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AAAE1E199CB08B006D5FE9 /* ClassA.m */; };
+		04AAAE22199CB0A0006D5FE9 /* ClassB.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AAAE21199CB0A0006D5FE9 /* ClassB.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -47,6 +51,14 @@
 		0454B2EC199B4B6B00547BA0 /* Memory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Memory.m; sourceTree = "<group>"; };
 		04AAAE12199C5499006D5FE9 /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
 		04AAAE13199C5499006D5FE9 /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		04AAAE16199CA301006D5FE9 /* Computer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Computer.h; sourceTree = "<group>"; };
+		04AAAE17199CA301006D5FE9 /* Computer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Computer.m; sourceTree = "<group>"; };
+		04AAAE19199CA353006D5FE9 /* People.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = People.h; sourceTree = "<group>"; };
+		04AAAE1A199CA353006D5FE9 /* People.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = People.m; sourceTree = "<group>"; };
+		04AAAE1D199CB08B006D5FE9 /* ClassA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassA.h; sourceTree = "<group>"; };
+		04AAAE1E199CB08B006D5FE9 /* ClassA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassA.m; sourceTree = "<group>"; };
+		04AAAE20199CB0A0006D5FE9 /* ClassB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassB.h; sourceTree = "<group>"; };
+		04AAAE21199CB0A0006D5FE9 /* ClassB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassB.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +101,8 @@
 		0454B2D4199B12FB00547BA0 /* property */ = {
 			isa = PBXGroup;
 			children = (
+				04AAAE1C199CB073006D5FE9 /* Property属性 */,
+				04AAAE15199CA2E1006D5FE9 /* Class关键字 */,
 				04AAAE11199C5457006D5FE9 /* StudentAndBook */,
 				0454B2EA199B4AE900547BA0 /* 内存管理 */,
 				0454B2D5199B12FB00547BA0 /* main.m */,
@@ -129,6 +143,28 @@
 				04AAAE13199C5499006D5FE9 /* Book.m */,
 			);
 			name = StudentAndBook;
+			sourceTree = "<group>";
+		};
+		04AAAE15199CA2E1006D5FE9 /* Class关键字 */ = {
+			isa = PBXGroup;
+			children = (
+				04AAAE16199CA301006D5FE9 /* Computer.h */,
+				04AAAE17199CA301006D5FE9 /* Computer.m */,
+				04AAAE19199CA353006D5FE9 /* People.h */,
+				04AAAE1A199CA353006D5FE9 /* People.m */,
+			);
+			name = "Class关键字";
+			sourceTree = "<group>";
+		};
+		04AAAE1C199CB073006D5FE9 /* Property属性 */ = {
+			isa = PBXGroup;
+			children = (
+				04AAAE1D199CB08B006D5FE9 /* ClassA.h */,
+				04AAAE1E199CB08B006D5FE9 /* ClassA.m */,
+				04AAAE20199CB0A0006D5FE9 /* ClassB.h */,
+				04AAAE21199CB0A0006D5FE9 /* ClassB.m */,
+			);
+			name = "Property属性";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,12 +218,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04AAAE1B199CA353006D5FE9 /* People.m in Sources */,
 				0454B2E5199B246B00547BA0 /* Person.m in Sources */,
 				0454B2E9199B272B00547BA0 /* Animal.m in Sources */,
 				0454B2D6199B12FB00547BA0 /* main.m in Sources */,
+				04AAAE1F199CB08B006D5FE9 /* ClassA.m in Sources */,
 				0454B2ED199B4B6B00547BA0 /* Memory.m in Sources */,
 				04AAAE14199C5499006D5FE9 /* Book.m in Sources */,
+				04AAAE18199CA301006D5FE9 /* Computer.m in Sources */,
 				0454B2E2199B131300547BA0 /* Student.m in Sources */,
+				04AAAE22199CB0A0006D5FE9 /* ClassB.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
